@@ -1,0 +1,29 @@
+.wrapper__product {
+  width: 32%;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-top: inherit;
+  padding: 2px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.wrapper__text {
+  background-color: aliceblue;
+}
+
+.wrapper__item {
+  font-style: oblique;
+}
+
+.wrapper__image {
+  background-color: black;
+  width: 98%;
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.wrapper__image:hover {
+  opacity: 0.5;
+}

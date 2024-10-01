@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/authorization.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="nav__item">
+                <a href="index.html" class="nav__link">
+                    <img alt="icon" class="icons" src="imgs/Main-icon.jpg">
+                </a>
+                <a href="index.html" class="nav__link">Головна</a>
+            </div>
+            <div class="nav__item">
+                <a href="registration.html" class="nav__link">
+                    <img alt="icon" class="icons" src="imgs/registration-icon.jpg">
+                </a>
+                <a href="registration.html" class="nav__link">Реєстрація</a>
+            </div>
+            <div class="nav__item">
+                <a href="authorization.html" class="nav__link">
+                    <img alt="icon" class="icons" src="imgs/avtorisation-icon.jpg">
+                </a>
+                <a href="authorization.html" class="nav__link">Авторизація</a>
+            </div>
+            <div class="nav__item">
+                <a href="search.html" class="nav__link">
+                    <img alt="icon" class="icons" src="imgs/Search-icon.jpg">
+                </a>
+                <a href="search.html" class="nav__link">Пошук</a>
+            </div>
+            <div class="nav__item">
+                <a href="catalog.html" class="nav__link">
+                    <img alt="icon" class="icons" src="imgs/Catalog-icon.jpg">
+                </a>
+                <a href="catalog.html" class="nav__link">Каталог</a>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <form id="specail" class="form" method="post">
+            <fieldset>
+                <legend><b>Aвторизація</b></legend>
+                <p>
+                    <label>
+                        <i>E-mail</i>
+                        <input class="input" type="text" name="username" required="required" autocomplete="on"
+                            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" /></label>
+                </p>
+                <p>
+                    <label>
+                        <i>Пароль</i>
+                        <input class="input" type="password" name="pwd" required="required" autocomplete="on"/>
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Увійти" />
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

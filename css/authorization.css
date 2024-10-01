@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.input {
+  border-radius: 10px;
+  background-color: bisque;
+  opacity: 0.5;
+  outline-style: auto;
+}
+
+.input:hover {
+  opacity: 1;
+  background-color: antiquewhite;
+}
